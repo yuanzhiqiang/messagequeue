@@ -41,7 +41,6 @@ public class MessageQueue implements Runnable {
 					long receiver = se.p.getreceiver();
 					long sender = se.p.getSender();
 					SelectionKey key = map.get(receiver);
-
 					if (key != null) {
 						System.out.println("send:" + new String(se.p.getArgs())
 								+ " to " + sender);

@@ -4061,3 +4061,30 @@
 [2015/01/30 12:43:14:525][com.messagequeque.server.MQServer][message]accept a new connection from 127.0.0.1
 [2015/01/30 12:44:10:092][com.messagequeque.server.MQServer][message]add node from 127.0.0.1 to delete node
 [2015/01/30 12:44:10:092][com.messageq.network.SelectionKeyManager][message]delete one node form 127.0.0.1
+[2015/01/30 18:27:55:182][com.messagequeque.server.MQServer][message]accept a new connection from 127.0.0.1
+[2015/01/30 18:29:13:464][com.messagequeque.server.MQServer][message]accept a new connection from 127.0.0.1
+[2015/01/30 18:29:46:564][com.messagequeque.server.MQServer][message]accept a new connection from 127.0.0.1
+[2015/01/30 18:31:12:343][com.messagequeque.server.MQServer][message]accept a new connection from 127.0.0.1
+[2015/01/30 18:35:49:840][com.messagequeque.server.MQServer][message]accept a new connection from 127.0.0.1
+[2015/01/30 18:37:34:773][com.messagequeque.server.MQServer][message]accept a new connection from 127.0.0.1
+[2015/01/30 18:37:36:284][com.messagequeque.server.MQServer][warn]server send little bytes than expected!
+[2015/01/30 18:38:22:539][com.messagequeque.server.MQServer][message]add node from 127.0.0.1 to delete node
+[2015/01/30 18:38:22:540][com.messageq.network.SelectionKeyManager][message]delete one node form 127.0.0.1
+[2015/01/30 18:46:29:555][com.messagequeque.server.MQServer][message]accept a new connection from 127.0.0.1
+[2015/01/30 18:46:39:098][com.messagequeque.server.MQServer][message]accept a new connection from 127.0.0.1
+[2015/01/30 18:46:40:217][com.messagequeque.server.MQServer][warn]server send little bytes than expected!
+[2015/01/30 18:46:40:222][com.messagequeque.server.MQServer][message]add node from 127.0.0.1 to delete node
+[2015/01/30 18:46:40:222][com.messageq.network.SelectionKeyManager][message]delete one node form 127.0.0.1
+[2015/01/30 18:46:52:306][com.messagequeque.server.MQServer][message]add node from 127.0.0.1 to delete node
+[2015/01/30 18:46:52:306][com.messageq.network.SelectionKeyManager][message]delete one node form 127.0.0.1
+[2015/01/30 18:48:03:734][com.messagequeque.server.MQServer][message]accept a new connection from 127.0.0.1
+[2015/01/30 18:48:29:728][com.messagequeque.server.MQServer][message]accept a new connection from 127.0.0.1
+[2015/01/30 18:48:42:343][com.messagequeque.server.MQServer][warn]server send little bytes than expected!
+[2015/01/30 18:49:08:175][com.messagequeque.server.MQServer][message]add node from 127.0.0.1 to delete node
+[2015/01/30 18:49:08:176][com.messageq.network.SelectionKeyManager][message]delete one node form 127.0.0.1
+[2015/01/30 18:53:35:585][com.messagequeque.server.MQServer][message]accept a new connection from 127.0.0.1
+[2015/01/30 18:53:53:356][com.messagequeque.server.MQServer][message]accept a new connection from 127.0.0.1
+[2015/01/30 18:53:55:231][com.messagequeque.server.MQServer][warn]server send little bytes than expected!
+[2015/01/30 18:54:06:247][com.messagequeque.server.MQServer][message]accept a new connection from 127.0.0.1
+[2015/01/30 18:54:07:266][com.messagequeque.server.MQServer][warn]server send little bytes than expected!
+[2015/01/30 18:54:07:267][com.messagequeque.server.MQServer][warn]server send little bytes than expected!

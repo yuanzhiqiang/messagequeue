@@ -27,9 +27,7 @@ public class MQServer {
 		Thread.currentThread().setName("main");
 		try {
 			ml = new Log();
-
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		NIOServerHandler server = ServerUtil.startServerHandler("" + 8999, ml);

@@ -161,16 +161,23 @@ public class NIOServerHandler implements INIOHandler, Runnable {
 		type = buffer.getLong();
 		buffer.clear();
 		if(type == MessageConstans.P2P){
-			buffer.limit(24);
+			buffer.limit(20);
 			channel.read(buffer);
+			buffer.flip();
 			sender = buffer.getLong();
 			receiver = buffer.getLong();
 			argsize = buffer.getInt();
 		}else if(type == MessageConstans.PUB){
+			buffer.limit(16);
+			channel.read(buffer);
+			buffer.flip();
 			user = buffer.getLong();
 			topic = buffer.getInt();
 			argsize = buffer.getInt();
 		}else if(type == MessageConstans.SUB){
+			buffer.limit(16);
+			channel.read(buffer);
+			buffer.flip();
 			user = buffer.getLong();
 			topic = buffer.getInt();
 			argsize = 0;
@@ -186,7 +193,7 @@ public class NIOServerHandler implements INIOHandler, Runnable {
 		}
 		buffer.clear();
 		if (argsize == 0) {
-			return 24;
+			return 28;
 		} else {
 			buffer.limit(argsize);
 			tc.timeRefresh();
@@ -203,7 +210,7 @@ public class NIOServerHandler implements INIOHandler, Runnable {
 			buffer.get(args, 0, argsize);
 			buffer.clear();
 		}
-		return argsize + 24;
+		return argsize + 28;
 	}
 
 	public void init() {
